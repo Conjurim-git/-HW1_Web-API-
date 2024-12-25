@@ -1,0 +1,17 @@
+@HW1(Web-API)_HostAddress = https://localhost:7106
+@HW1_Web_API__HostAddress = http://localhost:5163
+
+GET {{HW1_Web_API__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{HW1(Web-API)_HostAddress}}/todoitems
+
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+###
